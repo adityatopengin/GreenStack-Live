@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    /* Sets the deep charcoal industrial background */
+    @apply bg-brand-dark text-brand-text min-h-screen antialiased overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  /* This creates the frosted glass effect for your Bento tiles */
+  .glass-panel {
+    @apply bg-brand-card/40 backdrop-blur-md border border-white/10 shadow-glass rounded-2xl;
+  }
+  
+  /* Adds a subtle emerald glow when you hover over a tile */
+  .glass-panel-hover {
+    @apply hover:border-brand-emerald/30 hover:shadow-glow transition-all duration-300;
+  }
+}
+
