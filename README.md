@@ -3,7 +3,6 @@
   <h1>GreenStack Fuels</h1>
   <p><strong>नवीन ऊर्जेचा विश्वास | Powering Maharashtra's Industrial Future</strong></p>
 </div>
-
 ---
 
 ## 🌍 About The Project
